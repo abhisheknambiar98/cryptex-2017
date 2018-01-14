@@ -48,5 +48,5 @@ require('./app/routes/user.js')(app, passport);
 require('./app/routes/levels.js')(app, passport);
 
 app.listen(port,()=>{
-	console.log('Server running on port: ' + 3000;
+	console.log('Server running on port: ' + 3000);
 });
