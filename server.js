@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port=8080;
+var port=3000;
 
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
@@ -48,5 +48,5 @@ require('./app/routes/user.js')(app, passport);
 require('./app/routes/levels.js')(app, passport);
 
 app.listen(port,()=>{
-	console.log('Server running on port: ' + 8080);
+	console.log('Server running on port: ' + 3000;
 });
